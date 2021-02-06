@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background: url(../img/wolfmine-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Class chung */
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+
+/* Header CSS */
+
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    top: 0;
+    background-image: url(../img/header-background.jpg);
+}
+
+.header--nav {
+    position: absolute;
+}
+
+.header--nav li {
+    display: inline-block;
+    line-height: 46px;
+    margin: 0 53px;
+    opacity: 0.8;
+}
+
+.header--nav li:hover {
+    opacity: 1;
+}
+
+.header--nav a {
+    font-size: 19px;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* Content CSS */
+
+#content {
+    position: relative;
+    top: 48px;
+    box-shadow: 2px 2px 10px black;
+    background: #fff;
+    border-radius: 40px;
+    margin: 0 100px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+
+#content .content--about__red {
+    color: red;
+}
+
+#content .content--about__green {
+    color: green;
+}
+
+#content .content--about__blue {
+    color: blue;
+}
+
+#content .content-section {
+    margin-top: 32px;
+    padding: 0 48px;
+}
+
+#content .content--info {
+    line-height: 1.6;
+    text-align: justify;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content--info img {
+    width: 400px;
+}
+
+#content .content__title {
+    text-align: center;
+    padding-top: 48px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#content .content__desc {
+    text-shadow: 0.1px 0.1px black;
+    font-size: 19px;
+    color: #787878;
+}
