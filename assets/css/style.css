@@ -7,59 +7,55 @@
 
 html {
     background: url(../img/wolfmine-background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
-
-
-/* Class chung */
-
-.mt-32 {
-    margin-top: 32px;
-}
-
-.mt-16 {
-    margin-top: 16px;
-}
-
 
 /* Header CSS */
 
 #header {
     z-index: 1;
     position: fixed;
-    width: 100%;
+    left: 0;
+    right: 0;
     height: 46px;
     top: 0;
     background-image: url(../img/header-background.jpg);
 }
 
+.header--playbtn {
+    width: 110px;
+    float: right;
+}
+
 .header--nav {
+    height: 46px;
     position: absolute;
 }
 
 .header--nav li {
     display: inline-block;
     line-height: 46px;
-    margin: 0 53px;
-    opacity: 0.8;
+    padding: 0 53px;
 }
 
 .header--nav li:hover {
-    opacity: 1;
+    background-color: black;
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .header--nav a {
     font-size: 19px;
     font-weight: 500;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 1px black;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
 
+i.header--mobilebtn {
+    display: none;
+}
 
 /* Content CSS */
 
@@ -100,7 +96,7 @@ html {
 }
 
 .content--info img {
-    width: 400px;
+    width: 40%;
 }
 
 #content .content__title {
@@ -112,8 +108,48 @@ html {
     text-decoration: underline;
 }
 
-#content .content__desc {
+#content .content__desc,
+.content--text {
     text-shadow: 0.1px 0.1px black;
     font-size: 19px;
     color: #787878;
+}
+
+.content--ps__desc {
+    margin-right: 62px;
+}
+
+.content--sb__desc {
+    margin-left: 32px;
+}
+
+.content--text, .content--img {
+    margin-top: 32px;
+}
+
+.content--img {
+    width: 100%;
+}
+
+/* Footer CSS */
+
+#footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 96px;
+    background-image: url(../img/header-background.jpg);
+}
+
+#footer span {
+    font-weight: 600;
+    text-shadow: 1px 1px 5px #000;
+    color: #fff;
+    font-family: pixel, sans-serif;
+    line-height: 46px;
+    font-size: large;
+}
+
+#footer i {
+    font-size: 21px;
+    font-weight: 600;
 }

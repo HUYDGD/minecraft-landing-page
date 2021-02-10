@@ -1,0 +1,126 @@
+/* PC breakpoint */
+
+@media only screen and (min-width: 64.0625em) {
+
+    /* Header CSS */
+
+    #header {
+        height: 46px;
+    }
+
+    .header--nav li {
+        padding: 0 30px;
+    }
+
+}
+
+/* Tablet breakpoint */
+
+@media only screen and (max-width: 64em) {
+
+    /* Header CSS */
+
+    .header--nav li {
+        padding: 0 20px;
+    }
+
+    .header--playbtn {
+        display: none;
+    }
+
+    /* Content CSS */
+
+}
+
+/* Mobile breakpoint */
+
+@media only screen and (max-width: 61em) {
+
+    /* Header CSS */
+
+    #header {
+        background-image: url(../img/mobile-header.jpg);
+    }
+
+    .header--nav {
+        background-image: url(../img/mobile-header.jpg);
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header--nav li {
+        display: block;
+    }
+
+    .header--nav li:hover {
+        opacity: 0.8;
+        background-color: black;
+    }
+
+    .header--nav li:first-child a {
+        font-size: 20px;
+    }
+
+    .header--nav li:first-child {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .header--nav a {
+        display: block;
+        font-size: 15px;
+    }
+
+    .header--playbtn {
+        display: none;
+    }
+
+    i.header--mobilebtn {
+        text-shadow: 2px 1px black;
+        color: #fff;
+        display: block;
+        font-size: 30px;
+        line-height: 46px;
+        padding: 0 23px;
+        position: absolute;
+        right: 0;
+    }
+
+    i.header--mobilebtn:hover {
+        opacity: 0.7;
+        background-color: black;
+    }
+
+    /* Content CSS */
+
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+
+    #content .content--info {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #content .content--info__ps {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content--sb__desc, .content--ps__desc {
+        margin: 0;
+        margin-top: 32px;
+    }
+
+    .content--info img {
+        width: 100%;
+    }
+
+    /* Footer CSS */
+
+    #footer span {
+        font-size: 13px;
+    } 
+
+}
