@@ -1,6 +1,6 @@
 # Minecraft Landing Page - WolfMine
 Một dự án HTMl nhỏ được làm bởi mình. Đây website của WolfMine nhưng do không còn làm server nữa nên là... `(Thật ra là lười)` <br>
-Mình sẽ rất cảm kích nếu có người góp ý và giúp mình chỉnh chu lại cái project này cho phù hợp với cộng đồng, thanks you >,<
+Mình sẽ rất cảm kích nếu có người góp ý và giúp mình chỉnh chu lại cái project này cho phù hợp với cộng đồng, thanks you!
 
 ## Demo
 <a href="https://ibb.co/X2tC8MC"><img src="https://i.ibb.co/4mpVd3V/Minecraft-Vi-t-Server-MCBE-Vi-t-Nam.png" alt="Minecraft Landing Page" border="1"></a> <br>
