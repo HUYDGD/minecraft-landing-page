@@ -5,8 +5,8 @@ Mình sẽ rất cảm kích nếu có người góp ý và giúp mình chỉnh 
 ## Demo
 <a href="https://ibb.co/X2tC8MC"><img src="https://i.ibb.co/4mpVd3V/Minecraft-Vi-t-Server-MCBE-Vi-t-Nam.png" alt="Minecraft Landing Page" border="1"></a> <br>
 <a href="https://ibb.co/104PzQj"><img src="https://i.ibb.co/S6ZMfyG/Minecraft-Vi-t-Server-MCBE-Vi-t-Nam-1.png" alt="SkyBlock Minecraft Landing Page" border="1"></a> <br>
-Bạn có thể ghé thăm website tại <a href="https://wolfgamer2805.github.io/minecraft-landing-page/">đây</a>
+Bạn có thể ghé thăm website tại <a href="https://huydgd.github.io/minecraft-landing-page/">đây</a>
 
 # About me
-Mình có làm youtube về Minecraft nè, hãy theo dõi mình tại đây nha: <a href="https://www.youtube.com/channel/UCYnyLX9-NpB6-18p1TKTvRg">wolfgamer2805</a>
-<a href="https://ibb.co/zGNn12b"><img src="https://i.ibb.co/m6SDmyt/wolfgamer2805-You-Tube.png" alt="wolfgamer2805 youtube" border="1"></a> <br>
+Mình có làm youtube về Minecraft nè, hãy theo dõi mình tại đây nha: <a href="https://www.youtube.com/@HUYDGD">HUYDGD</a>
+<a href="https://ibb.co/zGNn12b"><img src="https://i.ibb.co/m6SDmyt/wolfgamer2805-You-Tube.png" alt="HUYDGD youtube" border="1"></a> <br>
